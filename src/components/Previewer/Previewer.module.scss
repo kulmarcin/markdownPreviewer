@@ -1,0 +1,77 @@
+.PreviewerCard {
+  height: 30rem;
+  width: 50rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: gray;
+  filter: brightness(170%);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 20px black;
+  transition: width 0.5s, height 0.5s;
+}
+
+.PreviewerCardBigger {
+  height: 90vh;
+  width: 100vw;
+  margin-top: 2rem;
+  background-color: gray;
+  filter: brightness(170%);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 20px black;
+  transition: width 0.5s, height 0.5s;
+}
+
+.PreviewerCardMinimalized {
+  background-color: gray;
+  filter: brightness(170%);
+  height: 2.1rem;
+  width: 40rem;
+  margin-top: 2rem;
+  box-shadow: 5px 5px 20px black;
+  transition: width 0.5s, height 0.5s;
+}
+
+.Bar {
+  height: 1.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border: 2px solid black;
+}
+
+.Title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  i {
+    margin-right: 5px;
+  }
+}
+
+.Content {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  height: 100%;
+  padding: 1rem;
+  overflow: scroll;
+
+  img {
+    max-width: 20rem;
+  }
+}
+
+blockquote {
+  border-left: 5px solid black;
+  padding-left: 5px;
+}
+
+pre {
+  white-space: pre-wrap;
+  background-color: lightblue;
+}

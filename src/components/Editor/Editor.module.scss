@@ -1,0 +1,80 @@
+.EditorCard {
+  height: 20rem;
+  width: 30rem;
+  margin-top: 2rem;
+  background-color: gray;
+  filter: brightness(170%);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 20px black;
+  transition: width 0.5s, height 0.5s;
+}
+
+.EditorCardBigger {
+  height: 90vh;
+  width: 80vw;
+  margin-top: 2rem;
+  background-color: gray;
+  filter: brightness(170%);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 20px black;
+  transition: width 0.5s, height 0.5s;
+}
+
+.EditorCardMinimalized {
+  background-color: gray;
+  filter: brightness(170%);
+  height: 2.1rem;
+  width: 20rem;
+  margin-top: 2rem;
+  box-shadow: 5px 5px 20px black;
+  transition: width 0.5s, height 0.5s;
+}
+
+.Bar {
+  height: 1.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border: 2px solid black;
+}
+
+.Title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  i {
+    margin-right: 5px;
+  }
+}
+
+.Content {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  height: 100%;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+  width: 98%;
+  height: 97%;
+  margin: 0;
+  background-color: inherit;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+
+  &::placeholder {
+    color: rgb(46, 43, 43);
+  }
+}
+
+i {
+  cursor: pointer;
+}
